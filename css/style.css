@@ -40,7 +40,7 @@ header {
     margin-left: 50px;
 }
 
-.add_section {
+.add_section.buttons {
     border: 1px solid lightgrey;
     color: lightgrey;
 }
@@ -51,12 +51,73 @@ header {
     font-size: 11px;
 }
 
-.bottom_main{
-    background-color:white ;
-    height: 500px;
+.bottom_main {
+    background-color: white;
     width: 80%;
     margin-top: 2px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main_tx>div {
+    margin: 2rem;
+}
+
+.checkmark {
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.crossmark {
+    color: #ea4237;
+    border: 1px solid #ea4237;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    color: white;
+    border-radius: 12px;
+}
+
+.editorial {
+    background-color: #45abe9;
+
+}
+
+.Q1_Goals {
+    background-color: #9c72e4;
+
+}
+
+.recruting {
+    background-color: #64c0a9;
+
+}
+
+.mobile {
+    background-color: #f29e33;
+
+}
+
+.website {
+    background-color: #d863a1;
+
+}
+
+.sales {
+    background-color: #b0c926;
+
 }
