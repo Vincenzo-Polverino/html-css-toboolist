@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -48,4 +49,14 @@ header {
     padding: 8px;
     border-radius: 8%;
     font-size: 11px;
+}
+
+.bottom_main{
+    background-color:white ;
+    height: 500px;
+    width: 80%;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
