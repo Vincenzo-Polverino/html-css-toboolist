@@ -40,15 +40,9 @@ header {
     margin-left: 50px;
 }
 
-.add_section.buttons {
+.add_section{
     border: 1px solid lightgrey;
     color: lightgrey;
-}
-
-.buttons {
-    padding: 8px;
-    border-radius: 8%;
-    font-size: 11px;
 }
 
 .bottom_main {
@@ -70,26 +64,44 @@ header {
     color: forestgreen;
     border: 1px solid forestgreen;
     border-radius: 50%;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .crossmark {
     color: #ea4237;
     border: 1px solid #ea4237;
     border-radius: 50%;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
-h3 {
+summary {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-weight: bolder;
 }
 
-.buttons {
+li{
+    padding: 0.5rem;
+   list-style-type:none;
+}
+
+button, .badge{
     color: white;
     border-radius: 12px;
+    padding: 7px;
+    font-size: 11px;
+}
+
+
+button{
+    border: 0;
+    border-radius: 8%;
+}
+
+.add_task{
+    border: 1px solid #45abe9
 }
 
 .editorial {

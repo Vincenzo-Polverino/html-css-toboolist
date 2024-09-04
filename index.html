@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,62 +21,68 @@
 
     <main>
         <section id="top_main">
-            <span class="add_task buttons">Add Task</span>
-            <span class="add_section buttons">Add Section</span>
+            <button class="add_task">Add Task</button>
+            <button class="add_section">Add Section</button>
         </section>
 
         <section class="bottom_main">
-            <div class="main_tx">
-                <h3>&#9660; New Task</h3>
+            <details open>
+                <summary> New Task</summary>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Quarterly Newsletter
-                    <span class="editorial buttons">Editorial</span>
-                </div>
+                    <span class="editorial badge">Editorial</span>
+                </li>
+            </details>
 
-                <h3>&#9660 Today</h3>
+            <details open>
+                <summary> Today</summary>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Recluting blog post
-                    <span class="editorial buttons">Editorial</span>
-                </div>
+                    <span class="editorial badge">Editorial</span>
+                </li>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Mobile app launch
-                    <span class="Q1_Goals buttons">Q1 Goals</span>
-                </div>
+                    <span class="Q1_Goals badge">Q1 Goals</span>
+                </li>
 
-                <div>
+                <li>
                     <span class="crossmark">&#10005</span> Interview John H.
-                    <span class="recruting buttons">Recruting</span>
-                </div>
+                    <span class="recruting badge">Recruting</span>
+                </li>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Summit update to mobile storefronts
-                    <span class="mobile buttons">Mobile</span>
-                </div>
+                    <span class="mobile badge">Mobile</span>
+                </li>
+            </details>
 
-                <h3>&#9660 Upcoming</h3>
+            <details open>
+                <summary> Upcoming</summary>
 
-                <div>
+                <li>
                     <span class="crossmark">&#10005</span> Schedule meeting with Alex
-                </div>
+                </li>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Homepage refresh
-                    <span class="website buttons">Website</span>
-                </div>
+                    <span class="website badge">Website</span>
+                </li>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Onboard new Sales team Members
-                    <span class="sales buttons">Sales</span>
-                </div>
+                    <span class="sales badge">Sales</span>
+                </li>
 
-                <div>
+                <li>
                     <span class="checkmark">&#x2713</span> Review editorial calendar
-                    <span class="editorial buttons">Editorial</span>
-                </div>
-            </div>
+                    <span class="editorial badge">Editorial</span>
+                </li>
+            </details>
+
+
         </section>
     </main>
 </body>
